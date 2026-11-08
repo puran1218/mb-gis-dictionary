@@ -1,0 +1,1573 @@
+{
+  "checked_on": "2026-11-07",
+  "copyright_policy": "All explanations are original educational writing; citations are reference pointers, not licenses to reproduce third-party definitions or artwork. Specific source-to-claim audit remains pending.",
+  "sources": [
+    {
+      "id": "esri_gis",
+      "title": "Esri — What is GIS?",
+      "url": "https://www.esri.com/en-us/what-is-gis/overview",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_feature",
+      "title": "ArcGIS Pro — Feature class basics",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/data/geodatabases/overview/feature-class-basics.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_geodb",
+      "title": "ArcGIS Pro — Geodatabase terminology",
+      "url": "https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/geodatabase-terminology.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_layers",
+      "title": "ArcGIS Pro — Layers",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/help/mapping/layer-properties/layers.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_coords",
+      "title": "ArcGIS Pro — Coordinate systems and projections",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/mapping/properties/coordinate-systems-and-projections.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_spref",
+      "title": "ArcGIS Pro — Spatial reference properties",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/data/geodatabases/overview/the-properties-of-a-spatial-reference.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_geometry",
+      "title": "ArcGIS Pro — Field data types",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/help/data/geodatabases/overview/arcgis-field-data-types.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false,
+      "target_concepts": [
+        "gis:feature-id"
+      ]
+    },
+    {
+      "id": "esri_georef",
+      "title": "ArcGIS Pro — Georeferencing",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/data/imagery/overview-of-georeferencing.htm",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_geocode",
+      "title": "ArcGIS Developers — Geocoding",
+      "url": "https://developers.arcgis.com/documentation/mapping-apis-and-services/geocoding/geocode-addresses/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false,
+      "target_concepts": [
+        "gis:geocoding"
+      ]
+    },
+    {
+      "id": "esri_buffer",
+      "title": "ArcGIS Pro — Buffer",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_clip",
+      "title": "ArcGIS Pro — Clip",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/clip.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_join",
+      "title": "ArcGIS Pro — Spatial Join",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/spatial-join.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_topology",
+      "title": "ArcGIS Pro — Topology",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/help/data/topologies/topology-in-arcgis.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "usgs_dem",
+      "title": "USGS — Digital elevation models: terminology",
+      "url": "https://www.usgs.gov/publications/digital-elevation-models-terminology-and-definitions",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "usgs_dem_faq",
+      "title": "USGS — What is a DEM?",
+      "url": "https://www.usgs.gov/faqs/what-a-digital-elevation-model-dem?qt-news_science_products=0",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "ogc_wms",
+      "title": "OGC — Web Map Service",
+      "url": "https://www.ogc.org/standards/wms/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "iso_mlgt",
+      "title": "ISO/TC 211 — Resources and glossary",
+      "url": "https://committee.iso.org/sites/tc211/home/re.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_dictionary",
+      "title": "Esri GIS Dictionary",
+      "url": "https://support.esri.com/en-us/gis-dictionary",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "ogc_standards",
+      "title": "OGC — Standards",
+      "url": "https://www.ogc.org/standards/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "epsg_registry",
+      "title": "EPSG Geodetic Parameter Dataset",
+      "url": "https://epsg.org/home.html",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "usgs_3dep",
+      "title": "USGS — 3D Elevation Program",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "usgs_landsat",
+      "title": "USGS — Landsat Missions",
+      "url": "https://www.usgs.gov/landsat-missions",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "ucgis_bok",
+      "title": "UCGIS — GIS&T Body of Knowledge",
+      "url": "https://www.ucgis.org/site/gis-t-body-of-knowledge",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "gemet",
+      "title": "EEA — GEMET Thesaurus",
+      "url": "https://www.eionet.europa.eu/gemet/en/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "ogc_rainbow",
+      "title": "OGC — Definitions Server",
+      "url": "https://defs.opengis.net/prez/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_help",
+      "title": "ArcGIS Pro — Help",
+      "url": "https://pro.arcgis.com/en/pro-app/latest/help/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "esri_sdk",
+      "title": "ArcGIS Maps SDK for JavaScript",
+      "url": "https://developers.arcgis.com/javascript/latest/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "ogc_api_features",
+      "title": "OGC API — Features",
+      "url": "https://ogcapi.ogc.org/features/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "qgis_docs",
+      "title": "QGIS Documentation",
+      "url": "https://docs.qgis.org/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "usgs_thesaurus",
+      "title": "USGS Thesaurus",
+      "url": "https://apps.usgs.gov/thesaurus/",
+      "usage_note": "reference only; original wording not imported",
+      "content_imported": false
+    },
+    {
+      "id": "rfc_geojson",
+      "title": "RFC 7946 — The GeoJSON Format",
+      "url": "https://www.rfc-editor.org/rfc/rfc7946.html",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geojson"
+      ]
+    },
+    {
+      "id": "ogc_geopackage",
+      "title": "OGC — GeoPackage Encoding Standard 1.4",
+      "url": "https://www.ogc.org/standards/geopackage/",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geopackage"
+      ]
+    },
+    {
+      "id": "ogc_cog",
+      "title": "OGC — Cloud Optimized GeoTIFF Standard",
+      "url": "https://www.ogc.org/standards/ogc-cloud-optimized-geotiff/",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:cloud-optimized-geotiff"
+      ]
+    },
+    {
+      "id": "ogc_wmts",
+      "title": "OGC — Web Map Tile Service",
+      "url": "https://www.ogc.org/standards/wmts/",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:wmts"
+      ]
+    },
+    {
+      "id": "ogc_wfs",
+      "title": "OGC — Web Feature Service",
+      "url": "https://www.ogc.org/standards/wfs/",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:wfs"
+      ]
+    },
+    {
+      "id": "ogc_api_core",
+      "title": "OGC API — Features, Part 1: Core 1.0",
+      "url": "https://docs.ogc.org/is/17-069r3/17-069r3.html",
+      "source_kind": "standard",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:ogc-api-features"
+      ]
+    },
+    {
+      "id": "stac_spec",
+      "title": "STAC — SpatioTemporal Asset Catalog Specification",
+      "url": "https://stacspec.org/",
+      "source_kind": "specification",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:stac"
+      ]
+    },
+    {
+      "id": "esri_cn_crs",
+      "title": "ArcGIS Pro 中文文档 — 坐标系、地图投影和变换",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/mapping/properties/coordinate-systems-and-projections.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:crs",
+        "gis:geographic-crs",
+        "gis:projected-crs",
+        "gis:map-projection",
+        "gis:coordinate-transformation",
+        "gis:web-mercator"
+      ]
+    },
+    {
+      "id": "esri_cn_feature",
+      "title": "ArcGIS Pro 中文文档 — 要素类基础知识",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/data/geodatabases/overview/feature-class-basics.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:feature-class",
+        "gis:feature",
+        "gis:feature-dataset",
+        "gis:point",
+        "gis:polyline",
+        "gis:polygon"
+      ]
+    },
+    {
+      "id": "esri_cn_georef",
+      "title": "ArcGIS Pro 中文文档 — 地理配准概述",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/data/imagery/overview-of-georeferencing.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:georeferencing",
+        "gis:orthophoto"
+      ]
+    },
+    {
+      "id": "esri_cn_spatial_join",
+      "title": "ArcGIS Pro 中文文档 — 空间连接",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/analysis/spatial-join.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:spatial-join",
+        "gis:point-in-polygon",
+        "gis:spatial-relationship"
+      ]
+    },
+    {
+      "id": "esri_cn_geoid",
+      "title": "ArcGIS Pro 中文文档 — 大地水准面",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/mapping/properties/geoid.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geoid",
+        "gis:ellipsoid",
+        "gis:orthometric-height",
+        "gis:ellipsoidal-height",
+        "gis:vertical-datum"
+      ]
+    },
+    {
+      "id": "esri_cn_raster_calc",
+      "title": "ArcGIS Pro 中文文档 — 栅格计算器",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/raster-calculator.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:raster-calculator"
+      ]
+    },
+    {
+      "id": "esri_cn_sa_tools",
+      "title": "ArcGIS Pro 中文文档 — Spatial Analyst 工具列表",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/complete-listing-of-spatial-analyst-tools.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:slope",
+        "gis:aspect",
+        "gis:hillshade",
+        "gis:contour",
+        "gis:viewshed",
+        "gis:zonal-statistics"
+      ]
+    },
+    {
+      "id": "usgs_lidar_terms",
+      "title": "USGS — Lidar Base Specification Glossary",
+      "url": "https://www.usgs.gov/ngp-standards-and-specifications/lidar-base-specification-glossary",
+      "source_kind": "government_glossary",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:dem",
+        "gis:dtm",
+        "gis:dsm",
+        "gis:lidar",
+        "gis:raster-resolution",
+        "gis:accuracy",
+        "gis:precision",
+        "gis:gis",
+        "gis:vector",
+        "gis:raster",
+        "gis:topology",
+        "gis:spatial-data",
+        "gis:raster-cell",
+        "gis:datum",
+        "gis:metadata",
+        "gis:point-cloud",
+        "gis:positional-accuracy",
+        "gis:uncertainty"
+      ]
+    },
+    {
+      "id": "usgs_dem_paper",
+      "title": "USGS — Digital Elevation Models: Terminology and Definitions",
+      "url": "https://www.usgs.gov/publications/digital-elevation-models-terminology-and-definitions",
+      "source_kind": "government_publication",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:dem",
+        "gis:dtm",
+        "gis:dsm"
+      ]
+    },
+    {
+      "id": "epsg_4326_mirror",
+      "title": "EPSG.io — WGS 84 (EPSG:4326), EPSG-derived record",
+      "url": "https://epsg.io/4326",
+      "source_kind": "secondary_registry_view",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:epsg-code",
+        "gis:wgs84"
+      ]
+    },
+    {
+      "id": "iso_19104",
+      "title": "ISO 19104:2016 — Geographic information — Terminology",
+      "url": "https://www.iso.org/standard/63541.html",
+      "source_kind": "terminology_methodology",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:crs"
+      ]
+    },
+    {
+      "id": "ogc_web_services",
+      "title": "OGC Developer — OGC Web Services overview",
+      "url": "https://developer.ogc.org/ows.html",
+      "source_kind": "official_overview",
+      "checked_on": "2026-11-08",
+      "usage_note": "Term-relevant primary or official documentation, used for editorial verification. Educational wording remains independently authored; do not bulk reproduce.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:wms",
+        "gis:wfs",
+        "gis:wmts"
+      ]
+    },
+    {
+      "id": "esri_cn_union",
+      "title": "ArcGIS Pro 中文文档 — 联合（分析工具）",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/analysis/union.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Verified relevant official bilingual/technical documentation; original explanations only.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:union"
+      ]
+    },
+    {
+      "id": "esri_cn_scale_bar",
+      "title": "ArcGIS Pro 中文文档 — 比例尺（布局元素）",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/layouts/scale-bars.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Verified relevant official bilingual/technical documentation; original explanations only.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:scale-bar",
+        "gis:map-scale"
+      ]
+    },
+    {
+      "id": "esri_cn_vertical",
+      "title": "ArcGIS Pro 中文文档 — 高程基准",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/mapping/properties/vertical-datums.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Verified relevant official bilingual/technical documentation; original explanations only.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:vertical-datum",
+        "gis:orthometric-height",
+        "gis:ellipsoidal-height"
+      ]
+    },
+    {
+      "id": "esri_cn_symbol",
+      "title": "ArcGIS Pro 中文文档 — 比例符号与分级符号",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/help/mapping/layer-properties/proportional-symbology.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Verified relevant official bilingual/technical documentation; original explanations only.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:graduated-symbol"
+      ]
+    },
+    {
+      "id": "esri_cn_slope",
+      "title": "ArcGIS Pro 中文文档 — 坡度",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/slope.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:slope"
+      ]
+    },
+    {
+      "id": "esri_cn_aspect",
+      "title": "ArcGIS Pro 中文文档 — 坡向",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/aspect.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:aspect"
+      ]
+    },
+    {
+      "id": "esri_cn_overlay",
+      "title": "ArcGIS Pro 中文文档 — 叠加工具集概述",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/analysis/an-overview-of-the-overlay-toolset.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:overlay",
+        "gis:intersect",
+        "gis:erase",
+        "gis:union",
+        "gis:spatial-join"
+      ]
+    },
+    {
+      "id": "esri_cn_pairwise",
+      "title": "ArcGIS Pro 中文文档 — 成对叠加工具集",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/analysis/an-overview-of-the-pairwise-overlay-toolset.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:buffer",
+        "gis:clip",
+        "gis:dissolve",
+        "gis:erase",
+        "gis:intersect"
+      ]
+    },
+    {
+      "id": "esri_cn_clip",
+      "title": "ArcGIS Pro 中文文档 — 裁剪",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/analysis/clip.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:clip"
+      ]
+    },
+    {
+      "id": "esri_cn_idw",
+      "title": "ArcGIS Pro 中文文档 — 反距离权重法",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/idw.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:idw"
+      ]
+    },
+    {
+      "id": "esri_cn_kriging",
+      "title": "ArcGIS Pro 中文文档 — 克里金法",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/kriging.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:kriging"
+      ]
+    },
+    {
+      "id": "esri_cn_kde",
+      "title": "ArcGIS Pro 中文文档 — 核密度分析",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/kernel-density.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:kernel-density"
+      ]
+    },
+    {
+      "id": "esri_cn_viewshed",
+      "title": "ArcGIS Pro 中文文档 — 视域",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/viewshed.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:viewshed"
+      ]
+    },
+    {
+      "id": "esri_cn_zonal",
+      "title": "ArcGIS Pro 中文文档 — 分区统计",
+      "url": "https://doc.esri.com/zh-cn/arcgis-pro/latest/tool-reference/spatial-analyst/zonal-statistics.html",
+      "source_kind": "vendor_documentation",
+      "checked_on": "2026-11-08",
+      "usage_note": "Official Chinese ArcGIS Pro documentation inspected for terminology and operation scope; no text imported.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:zonal-statistics"
+      ]
+    },
+    {
+      "id": "evidence_layers",
+      "title": "Esri — add layers to a map",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/layer-properties/add-layers-to-a-map.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:layer"
+      ]
+    },
+    {
+      "id": "evidence_geometry",
+      "title": "Esri — arcgis field data types",
+      "url": "https://pro.arcgis.com/en/pro-app/2.7/help/data/geodatabases/overview/arcgis-field-data-types.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geometry"
+      ]
+    },
+    {
+      "id": "evidence_fields",
+      "title": "Esri — an overview of fields",
+      "url": "https://pro.arcgis.com/en/pro-app/2.6/help/data/geodatabases/overview/an-overview-of-fields.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:attribute",
+        "gis:attribute-table",
+        "gis:field"
+      ]
+    },
+    {
+      "id": "evidence_wgs84",
+      "title": "OGC — 4326",
+      "url": "https://www.opengis.net/def/crs/EPSG/0/4326",
+      "checked_on": "2026-11-08",
+      "source_kind": "standard_registry",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:wgs84"
+      ]
+    },
+    {
+      "id": "evidence_map",
+      "title": "USGS — what topographic map",
+      "url": "https://www.usgs.gov/media/audio/what-topographic-map",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:map"
+      ]
+    },
+    {
+      "id": "evidence_general",
+      "title": "Esri — author a multiscaled map",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/map-authoring/author-a-multiscaled-map.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:map-scale",
+        "gis:generalization"
+      ]
+    },
+    {
+      "id": "evidence_extent",
+      "title": "Esri — set a custom full extent",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/mapping/properties/set-a-custom-full-extent.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:extent"
+      ]
+    },
+    {
+      "id": "evidence_coordinate",
+      "title": "Esri — specify a coordinate system",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/mapping/properties/specify-a-coordinate-system.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:coordinate"
+      ]
+    },
+    {
+      "id": "evidence_geodb",
+      "title": "Esri — what is a geodatabase ",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/data/geodatabases/overview/what-is-a-geodatabase-.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geodatabase"
+      ]
+    },
+    {
+      "id": "evidence_shape",
+      "title": "Esri — working with shapefiles in arcgis pro",
+      "url": "https://pro.arcgis.com/en/pro-app/3.0/help/data/shapefiles/working-with-shapefiles-in-arcgis-pro.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:shapefile"
+      ]
+    },
+    {
+      "id": "evidence_geotiff",
+      "title": "OGC — geotiff",
+      "url": "https://www.ogc.org/standards/geotiff/",
+      "checked_on": "2026-11-08",
+      "source_kind": "standard_registry",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geotiff"
+      ]
+    },
+    {
+      "id": "evidence_nodata",
+      "title": "Esri — nodata in raster datasets",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/data/imagery/nodata-in-raster-datasets.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:nodata"
+      ]
+    },
+    {
+      "id": "evidence_epsg-code",
+      "title": "EPSG Registry — 9053",
+      "url": "https://epsg.org/crs/wkt/id/9053",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:epsg-code"
+      ]
+    },
+    {
+      "id": "evidence_utm",
+      "title": "USGS — universal transverse mercator utm grid 0",
+      "url": "https://www.usgs.gov/publications/universal-transverse-mercator-utm-grid-0",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:utm"
+      ]
+    },
+    {
+      "id": "evidence_near",
+      "title": "Esri — near",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/tool-reference/analysis/near.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:proximity-analysis",
+        "gis:nearest-neighbor"
+      ]
+    },
+    {
+      "id": "evidence_select",
+      "title": "Esri — select layer by location",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/tool-reference/data-management/select-layer-by-location.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:point-in-polygon",
+        "gis:spatial-query"
+      ]
+    },
+    {
+      "id": "evidence_index",
+      "title": "Esri — an overview of spatial indexes in the geodatabase",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/data/geodatabases/overview/an-overview-of-spatial-indexes-in-the-geodatabase.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:spatial-index"
+      ]
+    },
+    {
+      "id": "evidence_interpolation",
+      "title": "Esri — an introduction to interpolation methods",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/analysis/geostatistical-analyst/an-introduction-to-interpolation-methods.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:interpolation"
+      ]
+    },
+    {
+      "id": "evidence_hotspot",
+      "title": "Esri — h how hot spot analysis getis ord gi spatial stati",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/tool-reference/spatial-statistics/h-how-hot-spot-analysis-getis-ord-gi-spatial-stati.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:hotspot"
+      ]
+    },
+    {
+      "id": "evidence_network",
+      "title": "Esri — network analyst solver types",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/analysis/networks/network-analyst-solver-types.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:network-analysis",
+        "gis:shortest-path",
+        "gis:service-area"
+      ]
+    },
+    {
+      "id": "evidence_cartography",
+      "title": "USGS — term simple",
+      "url": "https://apps.usgs.gov/thesaurus/term-simple.php?code=147&thcode=2",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:cartography"
+      ]
+    },
+    {
+      "id": "evidence_colors",
+      "title": "Esri — graduated colors",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/help/mapping/layer-properties/graduated-colors.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:symbology",
+        "gis:choropleth",
+        "gis:classification"
+      ]
+    },
+    {
+      "id": "evidence_legend",
+      "title": "Esri — add a legend",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/layouts/add-a-legend.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:legend"
+      ]
+    },
+    {
+      "id": "evidence_label",
+      "title": "Esri — labeling basics",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/mapping/text/labeling-basics.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:labeling"
+      ]
+    },
+    {
+      "id": "evidence_fgdc",
+      "title": "FGDC — 02",
+      "url": "https://www.fgdc.gov/metadata/csdgm/02.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "official_standard",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:data-lineage",
+        "gis:data-completeness",
+        "gis:data-consistency"
+      ]
+    },
+    {
+      "id": "evidence_feature",
+      "title": "Esri — query features",
+      "url": "https://developers.arcgis.com/documentation/portal-and-data-services/data-services/feature-services/query-features/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:feature-service"
+      ]
+    },
+    {
+      "id": "evidence_mapservice",
+      "title": "Esri — map service",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/map-service/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:map-service"
+      ]
+    },
+    {
+      "id": "evidence_vectortile",
+      "title": "Esri — VectorTileLayer",
+      "url": "https://developers.arcgis.com/javascript/latest/references/core/layers/VectorTileLayer/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:tile",
+        "gis:vector-tile"
+      ]
+    },
+    {
+      "id": "evidence_types",
+      "title": "Esri — items and item types",
+      "url": "https://developers.arcgis.com/rest/users-groups-and-items/items-and-item-types/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:web-map"
+      ]
+    },
+    {
+      "id": "evidence_webscene",
+      "title": "Esri — web scenes",
+      "url": "https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/web-scenes/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:web-scene"
+      ]
+    },
+    {
+      "id": "evidence_rest-api",
+      "title": "MDN — REST",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+      "checked_on": "2026-11-08",
+      "source_kind": "technical_reference",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:rest-api"
+      ]
+    },
+    {
+      "id": "evidence_landsat",
+      "title": "USGS — landsat glossary",
+      "url": "https://www.usgs.gov/landsat-missions/landsat-glossary",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:satellite-imagery",
+        "gis:spectral-band",
+        "gis:spatial-resolution",
+        "gis:raster-band",
+        "gis:multispectral-imagery"
+      ]
+    },
+    {
+      "id": "evidence_aquatic",
+      "title": "USGS — introduction aquatic remote sensing",
+      "url": "https://www.usgs.gov/centers/western-geographic-science-center/introduction-aquatic-remote-sensing",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:remote-sensing",
+        "gis:temporal-resolution",
+        "gis:radiometric-resolution"
+      ]
+    },
+    {
+      "id": "evidence_ndvi",
+      "title": "USGS — landsat normalized difference vegetation index",
+      "url": "https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:ndvi"
+      ]
+    },
+    {
+      "id": "evidence_photo",
+      "title": "USGS — full",
+      "url": "https://pubs.usgs.gov/publication/tm11C11/full",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:orthophoto",
+        "gis:photogrammetry"
+      ]
+    },
+    {
+      "id": "evidence_hillshade",
+      "title": "Esri — hillshade function",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/data/imagery/hillshade-function.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:hillshade"
+      ]
+    },
+    {
+      "id": "evidence_contour",
+      "title": "USGS — act3 hnd",
+      "url": "https://pubs.usgs.gov/of/1998/of98-805/lessons/chpt1/act3-hnd.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:contour"
+      ]
+    },
+    {
+      "id": "evidence_watersheds",
+      "title": "USGS — watersheds and drainage basins",
+      "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:watershed"
+      ]
+    },
+    {
+      "id": "evidence_landcover",
+      "title": "USGS — land cover and land use change",
+      "url": "https://www.usgs.gov/publications/land-cover-and-land-use-change",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:land-cover"
+      ]
+    },
+    {
+      "id": "evidence_latlon",
+      "title": "NOAA — nautical charts02 information 2b",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_nautical_charts/nautical_charts02_information_2b.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:latitude",
+        "gis:longitude"
+      ]
+    },
+    {
+      "id": "evidence_autocorr",
+      "title": "Esri — h how spatial autocorrelation moran s i spatial st",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:spatial-autocorrelation"
+      ]
+    },
+    {
+      "id": "evidence_cost",
+      "title": "Esri — distance accumulation",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/tool-reference/raster-analysis/distance-accumulation.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:cost-distance"
+      ]
+    },
+    {
+      "id": "evidence_geofencing",
+      "title": "Esri — Esri.ArcGISRuntime.Geotriggers.Geotrigger",
+      "url": "https://developers.arcgis.com/net/api-reference/api/netwin/Esri.ArcGISRuntime/Esri.ArcGISRuntime.Geotriggers.Geotrigger.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geofencing"
+      ]
+    },
+    {
+      "id": "evidence_geomvalid",
+      "title": "Esri — invalid geometry",
+      "url": "https://pro.arcgis.com/en/pro-app/3.0/help/data/validating-data/invalid-geometry.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geometry-validity"
+      ]
+    },
+    {
+      "id": "evidence_featureds",
+      "title": "Esri — geodatabase dataset types",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/data/geodatabases/overview/geodatabase-dataset-types.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:feature-dataset"
+      ]
+    },
+    {
+      "id": "evidence_mosaic",
+      "title": "Esri — imagery management patterns and recommendations",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/data/imagery/imagery-management-patterns-and-recommendations.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:mosaic-dataset"
+      ]
+    },
+    {
+      "id": "evidence_project",
+      "title": "Esri — project raster",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/tool-reference/data-management/project-raster.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:raster-reprojection",
+        "gis:resampling"
+      ]
+    },
+    {
+      "id": "evidence_geospatial-temporal-data",
+      "title": "Esri — space time cube terminology",
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/space-time-pattern-mining/space-time-cube-terminology.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:geospatial-temporal-data"
+      ]
+    },
+    {
+      "id": "evidence_basemap",
+      "title": "Esri — Basemap",
+      "url": "https://developers.arcgis.com/javascript/latest/references/core/Basemap/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:basemap"
+      ]
+    },
+    {
+      "id": "evidence_heat",
+      "title": "Esri — heat map",
+      "url": "https://pro.arcgis.com/en/pro-app/3.5/help/mapping/layer-properties/heat-map.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:heat-map"
+      ]
+    },
+    {
+      "id": "evidence_dot",
+      "title": "Esri — dot density",
+      "url": "https://pro.arcgis.com/en/pro-app/3.3/help/mapping/layer-properties/dot-density.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:dot-density-map"
+      ]
+    },
+    {
+      "id": "evidence_hyper",
+      "title": "USGS — hyperspectral narrowband data propel gigantic leap earth remote sensing",
+      "url": "https://www.usgs.gov/publications/hyperspectral-narrowband-data-propel-gigantic-leap-earth-remote-sensing",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:hyperspectral-imagery"
+      ]
+    },
+    {
+      "id": "evidence_sar",
+      "title": "USGS — usgs eros archive radar synthetic aperture radar sar processing system",
+      "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-radar-synthetic-aperture-radar-sar-processing-system",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:sar"
+      ]
+    },
+    {
+      "id": "evidence_ground-sample-distance",
+      "title": "USGS — full",
+      "url": "https://pubs.usgs.gov/publication/ofr20241023/full",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:ground-sample-distance"
+      ]
+    },
+    {
+      "id": "evidence_image-classification",
+      "title": "Esri — classify",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/help/analysis/image-analyst/classify.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:image-classification"
+      ]
+    },
+    {
+      "id": "evidence_atmo",
+      "title": "USGS — landsat surface reflectance",
+      "url": "https://www.usgs.gov/landsat-missions/landsat-surface-reflectance",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:atmospheric-correction"
+      ]
+    },
+    {
+      "id": "evidence_mapseries",
+      "title": "Esri — map series",
+      "url": "https://pro.arcgis.com/en/pro-app/3.6/help/layouts/map-series.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:map-series"
+      ]
+    },
+    {
+      "id": "evidence_graticule",
+      "title": "Esri — grids and graticules",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/help/layouts/grids-and-graticules.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:graticule"
+      ]
+    },
+    {
+      "id": "evidence_scenelayer",
+      "title": "Esri — sceneLayer",
+      "url": "https://developers.arcgis.com/web-scene-specification/objects/sceneLayer/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:scene-layer"
+      ]
+    },
+    {
+      "id": "evidence_map-cache",
+      "title": "Esri — map tile cache",
+      "url": "https://developers.arcgis.com/documentation/portal-and-data-services/data-services/map-tile-services/map-tile-cache/",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:map-cache"
+      ]
+    },
+    {
+      "id": "evidence_postgis",
+      "title": "Source — using postgis query",
+      "url": "https://www.postgis.net/docs/manual-dev/en/using_postgis_query.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "government_primary",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:spatial-database"
+      ]
+    },
+    {
+      "id": "evidence_version",
+      "title": "Esri — reconcile and post edits to a branch version",
+      "url": "https://pro.arcgis.com/en/pro-app/2.6/help/data/geodatabases/overview/reconcile-and-post-edits-to-a-branch-version.htm",
+      "checked_on": "2026-11-08",
+      "source_kind": "vendor_documentation",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:data-versioning"
+      ]
+    },
+    {
+      "id": "evidence_data-freshness",
+      "title": "FGDC — 01",
+      "url": "https://www.fgdc.gov/metadata/csdgm/01.html",
+      "checked_on": "2026-11-08",
+      "source_kind": "official_standard",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:data-freshness"
+      ]
+    },
+    {
+      "id": "evidence_interoperability",
+      "title": "OGC — standards overview",
+      "url": "https://www.ogc.org/standards-overview/",
+      "checked_on": "2026-11-08",
+      "source_kind": "standard_registry",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:interoperability"
+      ]
+    },
+    {
+      "id": "evidence_licensing",
+      "title": "Creative Commons — licensing best practices for the sharing of scientific data",
+      "url": "https://creativecommons.org/2026/04/20/licensing-best-practices-for-the-sharing-of-scientific-data/",
+      "checked_on": "2026-11-08",
+      "source_kind": "licensing_authority",
+      "usage_note": "Term-relevant technical passage checked during editorial audit. The Chinese and English explanations are independently written and are not standard-certified.",
+      "content_imported": false,
+      "illustrations_imported": false,
+      "target_concepts": [
+        "gis:licensing"
+      ]
+    }
+  ],
+  "term_level_review_policy": "Only references with source_kind 'standard', 'specification', 'vendor_documentation', 'government_glossary', or 'government_publication' and an observed term-relevant passage may be marked editorially checked. Secondary registry views and broad lists remain context only. None implies official certification."
+}
